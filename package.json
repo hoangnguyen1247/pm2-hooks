@@ -1,6 +1,6 @@
 {
     "name": "@hoangnguyen1247/pm2-hooks",
-    "version": "1.1.14",
+    "version": "1.1.15",
     "description": "Webhook server for pm2, compatible with any git repository",
     "main": "dist/index.js",
     "scripts": {
@@ -8,7 +8,8 @@
         "lint": "eslint src test",
         "pretest": "npm run lint",
         "test": "NODE_ENV=test _mocha",
-        "test:cover": "istanbul cover ./node_modules/.bin/_mocha"
+        "test:cover": "istanbul cover ./node_modules/.bin/_mocha",
+        "publish": "npm publish --access public"
     },
     "repository": {
         "type": "git",
